@@ -157,11 +157,22 @@ app.get('/', (req, res) => {
     }
   });
 });
+app.use('/api/auth', require('./routes/userRoutes'));
 
+// Admin Authentication Routes
+app.use('/api/admin/auth', require('./routes/adminRoutes'));
+
+app.use('/api/admin', require('./routes/bannerRoutes'));
 // ============================================
 // ERROR HANDLING
 // ============================================
 
+// ✅ ADD THIS LINE - Serve images from the images subfolder too!
+app.use('/uploads', express.static(path.join(__dirname, 'uploads/images')));
+
+// Also serve videos if needed
+app.use('/uploads', express.static(path.join(__dirname, 'uploads/videos')));
+app.use('/api', require('./routes/customerContactRoutes'));
 // 404 Not Found Handler
 app.use((req, res) => {
   console.log(`❌ 404 Not Found: ${req.method} ${req.originalUrl}`);

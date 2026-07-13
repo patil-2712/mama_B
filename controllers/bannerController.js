@@ -93,7 +93,7 @@ exports.createBanner = async (req, res) => {
     }
 
     // Get image URL from uploaded file
-    const imageUrl = req.file ? `/uploads/${req.file.filename}` : '';
+    const imageUrl = req.file ? `/uploads/images/${req.file.filename}` : '';
 
     if (!imageUrl) {
       return res.status(400).json({

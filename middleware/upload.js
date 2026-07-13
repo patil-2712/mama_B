@@ -22,12 +22,9 @@ if (!fs.existsSync(videoDir)) {
 }
 
 // Configure storage
+// middleware/upload.js - Keep images in uploads/images/
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    console.log('📁 File upload - Fieldname:', file.fieldname);
-    console.log('📁 File upload - Mimetype:', file.mimetype);
-    
-    // Store images and videos in different subdirectories
     if (file.mimetype && file.mimetype.startsWith('video/')) {
       cb(null, 'uploads/videos/');
     } else if (file.mimetype && file.mimetype.startsWith('image/')) {
@@ -40,7 +37,6 @@ const storage = multer.diskStorage({
     const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
     const ext = path.extname(file.originalname);
     const filename = file.fieldname + '-' + uniqueSuffix + ext;
-    console.log('📁 Saving file as:', filename);
     cb(null, filename);
   }
 });
