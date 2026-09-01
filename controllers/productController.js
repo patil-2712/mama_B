@@ -8,9 +8,8 @@ const path = require('path');
 // ADMIN CONTROLLER METHODS
 // ============================================
 
-// @desc    Create a product with image upload
-// @route   POST /api/admin/products
-// @access  Private (Admin only)
+// controllers/productController.js - FIXED CREATE
+
 exports.createProduct = async (req, res) => {
   try {
     const errors = validationResult(req);
@@ -52,14 +51,26 @@ exports.createProduct = async (req, res) => {
       });
     }
 
-    const imageUrl = req.file ? `/uploads/images/${req.file.filename}` : '';
+    // ✅ FIX: Parse discount properly
+    let parsedDiscount = 0;
+    if (discount !== undefined && discount !== null && discount !== '') {
+      parsedDiscount = parseFloat(discount);
+      if (isNaN(parsedDiscount) || parsedDiscount < 0) parsedDiscount = 0;
+      if (parsedDiscount > 100) parsedDiscount = 100;
+    }
 
-    console.log('📸 Image saved at:', imageUrl);
+    // ✅ FIX: Parse price properly
+    let parsedPrice = parseFloat(price);
+    if (isNaN(parsedPrice) || parsedPrice < 0) {
+      parsedPrice = 0;
+    }
+
+    const imageUrl = req.file ? `/uploads/images/${req.file.filename}` : '';
 
     const product = await Product.create({
       name: name.trim(),
-      price: parseFloat(price),
-      discount: discount ? parseFloat(discount) : 0,
+      price: parsedPrice,
+      discount: parsedDiscount,
       description: description.trim(),
       category,
       image: imageUrl,
@@ -69,10 +80,16 @@ exports.createProduct = async (req, res) => {
       createdBy: req.user.id
     });
 
+    // ✅ FIX: Add calculated discount info to response
+    const responseData = product.toObject();
+    responseData.originalPrice = parsedPrice;
+    responseData.finalPrice = Math.round((parsedPrice - (parsedPrice * (parsedDiscount / 100))) * 100) / 100;
+    responseData.discountAmount = Math.round((parsedPrice * (parsedDiscount / 100)) * 100) / 100;
+
     res.status(201).json({
       success: true,
       message: 'Product created successfully',
-      data: product
+      data: responseData
     });
   } catch (error) {
     if (req.file) {
@@ -89,6 +106,7 @@ exports.createProduct = async (req, res) => {
     });
   }
 };
+// controllers/productController.js - FIXED VERSION
 
 // @desc    Update product with image upload
 // @route   PUT /api/admin/products/:id
@@ -135,6 +153,7 @@ exports.updateProduct = async (req, res) => {
       quantity 
     } = req.body;
 
+    // Check for duplicate name
     if (name) {
       const existingProduct = await Product.findOne({ 
         name: name.trim(), 
@@ -154,6 +173,7 @@ exports.updateProduct = async (req, res) => {
       }
     }
 
+    // Handle image update
     if (req.file) {
       if (product.image) {
         const oldImagePath = path.join(__dirname, '..', product.image);
@@ -163,16 +183,46 @@ exports.updateProduct = async (req, res) => {
       }
     }
 
+    // ✅ FIX: Parse and validate discount properly
+    let parsedDiscount = 0;
+    if (discount !== undefined && discount !== null && discount !== '') {
+      parsedDiscount = parseFloat(discount);
+      if (isNaN(parsedDiscount) || parsedDiscount < 0) {
+        parsedDiscount = 0;
+      }
+      if (parsedDiscount > 100) {
+        parsedDiscount = 100;
+      }
+    }
+
+    // ✅ FIX: Parse and validate price properly
+    let parsedPrice = product.price;
+    if (price !== undefined && price !== null && price !== '') {
+      parsedPrice = parseFloat(price);
+      if (isNaN(parsedPrice) || parsedPrice < 0) {
+        parsedPrice = product.price;
+      }
+    }
+
+    // Build update data
     const updateData = {
       name: name ? name.trim() : product.name,
-      price: price ? parseFloat(price) : product.price,
-      discount: discount !== undefined ? parseFloat(discount) : product.discount,
+      price: parsedPrice,
+      discount: parsedDiscount,
       description: description ? description.trim() : product.description,
       category: category || product.category,
       badge: badge !== undefined ? badge : product.badge,
       inStock: inStock !== undefined ? inStock : product.inStock,
       quantity: quantity !== undefined ? parseInt(quantity) : product.quantity
     };
+
+    // ✅ FIX: Calculate the final price after discount (if needed for display)
+    // This stores the discounted price in a virtual field or you can add it to response
+    const finalPrice = parsedPrice - (parsedPrice * (parsedDiscount / 100));
+    
+    // Optional: If you want to store the calculated discounted price
+    // You would need to add a 'discountedPrice' field to your schema
+    // updateData.discountedPrice = Math.round(finalPrice * 100) / 100;
 
     if (req.file) {
       updateData.image = `/uploads/images/${req.file.filename}`;
@@ -187,10 +237,16 @@ exports.updateProduct = async (req, res) => {
       }
     );
 
+    // ✅ FIX: Add calculated discount info to the response
+    const responseData = product.toObject();
+    responseData.originalPrice = parsedPrice;
+    responseData.finalPrice = Math.round((parsedPrice - (parsedPrice * (parsedDiscount / 100))) * 100) / 100;
+    responseData.discountAmount = Math.round((parsedPrice * (parsedDiscount / 100)) * 100) / 100;
+
     res.status(200).json({
       success: true,
       message: 'Product updated successfully',
-      data: product
+      data: responseData
     });
   } catch (error) {
     if (req.file) {
@@ -207,7 +263,6 @@ exports.updateProduct = async (req, res) => {
     });
   }
 };
-
 // @desc    Delete product
 // @route   DELETE /api/admin/products/:id
 // @access  Private (Admin only)

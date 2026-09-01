@@ -4588,3 +4588,1067 @@
 [2026-07-12T12:20:49.731Z] [mrhri1f3otd6b715cog] Admin authenticated successfully: {"adminId":"6a429f7c6aecb49fd9035b04","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
 [2026-07-12T12:20:49.762Z] [mrhri1nmfeztvh2y45b] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
 [2026-07-12T12:20:49.779Z] [mrhri1nmfeztvh2y45b] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.712Z] [mtgoefhk5be2088tk92] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.725Z] [mtgoefhk5be2088tk92] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.731Z] [mtgoefhk5be2088tk92] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.743Z] [mtgoefhk5be2088tk92] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.747Z] [mtgoefhk5be2088tk92] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.763Z] [mtgoefhk5be2088tk92] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.765Z] [mtgoefj11ih3d56drpz] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.768Z] [mtgoefj11ih3d56drpz] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.804Z] [mtgoefk4kve52tusa5f] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.806Z] [mtgoefk4kve52tusa5f] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.810Z] [mtgoefk4kve52tusa5f] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.817Z] [mtgoefk4kve52tusa5f] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.818Z] [mtgoefk4kve52tusa5f] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.827Z] [mtgoefk4kve52tusa5f] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.829Z] [mtgoefkthynz0xe6909] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.831Z] [mtgoefkthynz0xe6909] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.842Z] [mtgoefl54571h51x2i6] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.845Z] [mtgoefl54571h51x2i6] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.847Z] [mtgoefl54571h51x2i6] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.852Z] [mtgoefl54571h51x2i6] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.854Z] [mtgoefl54571h51x2i6] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.859Z] [mtgoefl54571h51x2i6] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.861Z] [mtgoeflolwq3wa0ndj] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.862Z] [mtgoeflolwq3wa0ndj] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.864Z] [mtgoeflslxnsoxxfw7] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.865Z] [mtgoeflslxnsoxxfw7] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.866Z] [mtgoeflslxnsoxxfw7] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.872Z] [mtgoeflslxnsoxxfw7] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.874Z] [mtgoeflslxnsoxxfw7] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.878Z] [mtgoeflslxnsoxxfw7] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.880Z] [mtgoefm8qlqlwh97up] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.882Z] [mtgoefm8qlqlwh97up] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.896Z] [mtgoefmotcswcmo2bkh] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.898Z] [mtgoefmotcswcmo2bkh] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.899Z] [mtgoefmotcswcmo2bkh] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.903Z] [mtgoefmotcswcmo2bkh] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.906Z] [mtgoefmotcswcmo2bkh] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.912Z] [mtgoefmotcswcmo2bkh] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.914Z] [mtgoefn6wa9jmevfdc] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.920Z] [mtgoefn6wa9jmevfdc] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.923Z] [mtgoefnf9gk2ht8b38b] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.925Z] [mtgoefnf9gk2ht8b38b] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.927Z] [mtgoefnf9gk2ht8b38b] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.931Z] [mtgoefnf9gk2ht8b38b] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.936Z] [mtgoefnf9gk2ht8b38b] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.942Z] [mtgoefnyx7gwidd8jwn] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.943Z] [mtgoefnyx7gwidd8jwn] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.944Z] [mtgoefnyx7gwidd8jwn] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:40.951Z] [mtgoefnyx7gwidd8jwn] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:40.954Z] [mtgoefnyx7gwidd8jwn] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:40.959Z] [mtgoefnf9gk2ht8b38b] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.962Z] [mtgoefoih2qhcdgcqdm] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.965Z] [mtgoefoih2qhcdgcqdm] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.974Z] [mtgoefnyx7gwidd8jwn] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:40.976Z] [mtgoefow4i2o1sr7pcm] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:40.977Z] [mtgoefow4i2o1sr7pcm] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:40.995Z] [mtgoefpfzruomclhd4] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:40.997Z] [mtgoefpfzruomclhd4] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:40.999Z] [mtgoefpfzruomclhd4] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:41.009Z] [mtgoefpfzruomclhd4] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:41.013Z] [mtgoefpfzruomclhd4] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:41.031Z] [mtgoefpfzruomclhd4] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:41.035Z] [mtgoefqj296bm8wl32q] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:41.040Z] [mtgoefqj296bm8wl32q] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:47.700Z] [mtgoekvonudqkrqf6io] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:47.704Z] [mtgoekvonudqkrqf6io] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:47.707Z] [mtgoekvonudqkrqf6io] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:47.715Z] [mtgoekvonudqkrqf6io] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:47.719Z] [mtgoekvonudqkrqf6io] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:47.728Z] [mtgoekwg1yq4q11459b] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:47.730Z] [mtgoekwg1yq4q11459b] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:47.732Z] [mtgoekwg1yq4q11459b] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:47.736Z] [mtgoekwg1yq4q11459b] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:47.738Z] [mtgoekwg1yq4q11459b] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:47.744Z] [mtgoekvonudqkrqf6io] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:47.746Z] [mtgoekwy099bgogml06b] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:47.749Z] [mtgoekwy099bgogml06b] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:47.754Z] [mtgoekwg1yq4q11459b] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:47.757Z] [mtgoekx8m0sccp74ddc] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:47.759Z] [mtgoekx8m0sccp74ddc] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:47.769Z] [mtgoekxl2uucuuh36in] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:47.771Z] [mtgoekxl2uucuuh36in] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:47.774Z] [mtgoekxl2uucuuh36in] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:47.779Z] [mtgoekxl2uucuuh36in] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:47.791Z] [mtgoekxl2uucuuh36in] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:47.846Z] [mtgoekzqi9domh46rpc] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:47.871Z] [mtgoekzqi9domh46rpc] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:47.895Z] [mtgoekzqi9domh46rpc] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:47.919Z] [mtgoekzqi9domh46rpc] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:47.922Z] [mtgoekzqi9domh46rpc] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:47.938Z] [mtgoekxl2uucuuh36in] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:47.951Z] [mtgoel2n4v5nrwtvzcg] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:47.953Z] [mtgoel2n4v5nrwtvzcg] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:47.956Z] [mtgoekzqi9domh46rpc] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:47.958Z] [mtgoel2u7syalbj0039] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:47.959Z] [mtgoel2u7syalbj0039] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:53.783Z] [mtgoepknh5ch1bd5mtm] protect() called: {"url":"/admin/contact","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:53.787Z] [mtgoepknh5ch1bd5mtm] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:53.790Z] [mtgoepknh5ch1bd5mtm] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:53.796Z] [mtgoepknh5ch1bd5mtm] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:53.802Z] [mtgoepknh5ch1bd5mtm] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:53.813Z] [mtgoepknh5ch1bd5mtm] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:53.815Z] [mtgoepljtssjyh8s9zd] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:53.817Z] [mtgoepljtssjyh8s9zd] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:53.827Z] [mtgoeplvgkvtnnu0e6] protect() called: {"url":"/admin/contact","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:53.828Z] [mtgoeplvgkvtnnu0e6] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:53.830Z] [mtgoeplvgkvtnnu0e6] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:53.834Z] [mtgoeplvgkvtnnu0e6] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:53.835Z] [mtgoeplvgkvtnnu0e6] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:53.842Z] [mtgoeplvgkvtnnu0e6] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:53.844Z] [mtgoepmcl8msxaenh1] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:53.846Z] [mtgoepmcl8msxaenh1] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:56.459Z] [mtgoermzuldt64g11nt] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:56.462Z] [mtgoermzuldt64g11nt] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:56.467Z] [mtgoermzuldt64g11nt] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:56.476Z] [mtgoermzuldt64g11nt] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:56.480Z] [mtgoermzuldt64g11nt] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:56.491Z] [mtgoernue8930a79yav] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:56.494Z] [mtgoernue8930a79yav] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:56.499Z] [mtgoernue8930a79yav] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:56.520Z] [mtgoernue8930a79yav] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:56.529Z] [mtgoernue8930a79yav] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:56.543Z] [mtgoermzuldt64g11nt] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:56.545Z] [mtgoerpd0vzyx4ibige] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:56.549Z] [mtgoerpd0vzyx4ibige] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:56.559Z] [mtgoernue8930a79yav] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:56.560Z] [mtgoerpskjwmxilk12r] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:56.562Z] [mtgoerpskjwmxilk12r] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:56.578Z] [mtgoerqa50lsoya3in] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:56.581Z] [mtgoerqa50lsoya3in] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:56.589Z] [mtgoerqa50lsoya3in] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:56.598Z] [mtgoerqa50lsoya3in] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:56.609Z] [mtgoerqa50lsoya3in] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:56.625Z] [mtgoerrl0wwy5obd7x2q] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:25:56.629Z] [mtgoerrl0wwy5obd7x2q] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:25:56.632Z] [mtgoerrl0wwy5obd7x2q] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:25:56.642Z] [mtgoerrl0wwy5obd7x2q] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:25:56.647Z] [mtgoerrl0wwy5obd7x2q] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:25:56.657Z] [mtgoerqa50lsoya3in] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:56.662Z] [mtgoersmmq7ci5wok0i] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:56.667Z] [mtgoersmmq7ci5wok0i] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:25:56.677Z] [mtgoerrl0wwy5obd7x2q] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:25:56.684Z] [mtgoert75sxyxhbs0vk] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:25:56.689Z] [mtgoert75sxyxhbs0vk] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:26:36.600Z] [mtgofmm0ue3t5h76azp] protect() called: {"url":"/admin/products","method":"POST","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryjoBq8gIbBf7InUH6"}}
+[2026-08-31T03:26:36.603Z] [mtgofmm0ue3t5h76azp] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:26:36.606Z] [mtgofmm0ue3t5h76azp] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:26:36.613Z] [mtgofmm0ue3t5h76azp] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:26:36.620Z] [mtgofmm0ue3t5h76azp] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:26:36.632Z] [mtgofmm0ue3t5h76azp] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:26:36.639Z] [mtgofmn32k3a517iqn6] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:26:36.644Z] [mtgofmn32k3a517iqn6] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:26:36.796Z] [mtgofmrgrm7huzygf4] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:26:36.799Z] [mtgofmrgrm7huzygf4] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:26:36.804Z] [mtgofmrgrm7huzygf4] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:26:36.810Z] [mtgofmrgrm7huzygf4] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:26:36.813Z] [mtgofmrgrm7huzygf4] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:26:36.822Z] [mtgofms68df75z80wjp] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:26:36.826Z] [mtgofms68df75z80wjp] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:26:36.830Z] [mtgofms68df75z80wjp] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:26:36.835Z] [mtgofms68df75z80wjp] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:26:36.837Z] [mtgofms68df75z80wjp] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:26:36.843Z] [mtgofmrgrm7huzygf4] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:26:36.845Z] [mtgofmstfeiwa1sduc] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:26:36.846Z] [mtgofmstfeiwa1sduc] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:26:36.850Z] [mtgofms68df75z80wjp] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:26:36.852Z] [mtgofmt0qbxilpj5vbk] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:26:36.854Z] [mtgofmt0qbxilpj5vbk] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:26:54.735Z] [mtgog0lrl36734k81zp] protect() called: {"url":"/admin/products/6a94f46ce83561691154cebd","method":"PUT","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryi7T8HxAaJLiz2GAf"}}
+[2026-08-31T03:26:54.740Z] [mtgog0lrl36734k81zp] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:26:54.746Z] [mtgog0lrl36734k81zp] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:26:54.753Z] [mtgog0lrl36734k81zp] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:26:54.757Z] [mtgog0lrl36734k81zp] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:26:54.766Z] [mtgog0lrl36734k81zp] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:26:54.788Z] [mtgog0n8lic37zw7pjq] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:26:54.818Z] [mtgog0n8lic37zw7pjq] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:26:54.943Z] [mtgog0rjc0wjuvcouqs] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:26:54.945Z] [mtgog0rjc0wjuvcouqs] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:26:54.946Z] [mtgog0rjc0wjuvcouqs] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:26:54.952Z] [mtgog0rjc0wjuvcouqs] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:26:54.955Z] [mtgog0rjc0wjuvcouqs] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:26:54.962Z] [mtgog0s26gu94hqzx1g] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:26:54.971Z] [mtgog0s26gu94hqzx1g] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:26:54.977Z] [mtgog0s26gu94hqzx1g] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:26:54.982Z] [mtgog0s26gu94hqzx1g] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:26:54.988Z] [mtgog0s26gu94hqzx1g] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:26:55.008Z] [mtgog0rjc0wjuvcouqs] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:26:55.012Z] [mtgog0tgl0ein37ciy] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:26:55.025Z] [mtgog0tgl0ein37ciy] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:26:55.040Z] [mtgog0s26gu94hqzx1g] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:26:55.042Z] [mtgog0uashl6mcksc4] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:26:55.044Z] [mtgog0uashl6mcksc4] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:28:11.988Z] [mtgoho7olkwg8mdqyu] protect() called: {"url":"/admin/products/6a94f46ce83561691154cebd","method":"PUT","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryAv5Jo6eV1PV2gpzD"}}
+[2026-08-31T03:28:11.991Z] [mtgoho7olkwg8mdqyu] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:28:11.992Z] [mtgoho7olkwg8mdqyu] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:28:11.997Z] [mtgoho7olkwg8mdqyu] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:28:11.999Z] [mtgoho7olkwg8mdqyu] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:28:12.005Z] [mtgoho7olkwg8mdqyu] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:28:12.007Z] [mtgoho876t641dxlmkb] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:28:12.008Z] [mtgoho876t641dxlmkb] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:28:12.035Z] [mtgoho8zt5ux36sjcyr] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:28:12.037Z] [mtgoho8zt5ux36sjcyr] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:28:12.040Z] [mtgoho8zt5ux36sjcyr] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:28:12.045Z] [mtgoho8zt5ux36sjcyr] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:28:12.048Z] [mtgoho8zt5ux36sjcyr] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:28:12.054Z] [mtgoho9igjcmjrxycg] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:28:12.058Z] [mtgoho9igjcmjrxycg] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:28:12.059Z] [mtgoho9igjcmjrxycg] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:28:12.065Z] [mtgoho9igjcmjrxycg] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:28:12.068Z] [mtgoho9igjcmjrxycg] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:28:12.076Z] [mtgoho8zt5ux36sjcyr] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:28:12.080Z] [mtgohoa8s13wxvntja] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:28:12.082Z] [mtgohoa8s13wxvntja] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:28:12.093Z] [mtgoho9igjcmjrxycg] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:28:12.097Z] [mtgohoapmltu7la3l6n] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:28:12.102Z] [mtgohoapmltu7la3l6n] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:07.017Z] [mtgoruqxvzyrz3haud] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:07.021Z] [mtgoruqxvzyrz3haud] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:07.023Z] [mtgoruqxvzyrz3haud] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:07.037Z] [mtgoruqxvzyrz3haud] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:07.043Z] [mtgoruqxvzyrz3haud] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:07.100Z] [mtgoruqxvzyrz3haud] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:07.105Z] [mtgorutcly5ysa8mki] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:07.118Z] [mtgorutcly5ysa8mki] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:07.149Z] [mtgoruulodlqkzpybj] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:07.152Z] [mtgoruulodlqkzpybj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:07.156Z] [mtgoruulodlqkzpybj] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:07.166Z] [mtgoruulodlqkzpybj] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:07.167Z] [mtgoruulodlqkzpybj] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:07.186Z] [mtgoruulodlqkzpybj] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:07.188Z] [mtgoruvo7d5kzlfxw8q] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:07.190Z] [mtgoruvo7d5kzlfxw8q] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:07.220Z] [mtgoruwkt9iricqzqy] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:07.222Z] [mtgoruwkt9iricqzqy] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:07.231Z] [mtgoruwkt9iricqzqy] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:07.234Z] [mtgoruwkt9iricqzqy] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:07.236Z] [mtgoruwkt9iricqzqy] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:07.246Z] [mtgoruxa8hzcimbn02] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:07.249Z] [mtgoruxa8hzcimbn02] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:07.251Z] [mtgoruxa8hzcimbn02] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:07.254Z] [mtgoruxa8hzcimbn02] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:07.257Z] [mtgoruxa8hzcimbn02] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:07.276Z] [mtgoruwkt9iricqzqy] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:07.279Z] [mtgoruy7o14q1idf21] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:07.281Z] [mtgoruy7o14q1idf21] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:07.285Z] [mtgoruxa8hzcimbn02] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:07.286Z] [mtgoruyeseufztedtvi] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:07.293Z] [mtgoruyeseufztedtvi] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:08.503Z] [mtgorvw70msilkpxebdr] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:08.505Z] [mtgorvw70msilkpxebdr] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:08.506Z] [mtgorvw70msilkpxebdr] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:08.509Z] [mtgorvw70msilkpxebdr] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:08.510Z] [mtgorvw70msilkpxebdr] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:08.517Z] [mtgorvwlew3y3v6444] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:08.521Z] [mtgorvwlew3y3v6444] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:08.528Z] [mtgorvwlew3y3v6444] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:08.531Z] [mtgorvwlew3y3v6444] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:08.532Z] [mtgorvwlew3y3v6444] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:08.536Z] [mtgorvx4nw1736roqce] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:08.537Z] [mtgorvx4nw1736roqce] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:08.545Z] [mtgorvx4nw1736roqce] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:08.550Z] [mtgorvx4nw1736roqce] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:08.552Z] [mtgorvx4nw1736roqce] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:08.560Z] [mtgorvxsp78a7pcj0qp] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:08.563Z] [mtgorvxsp78a7pcj0qp] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:08.564Z] [mtgorvxsp78a7pcj0qp] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:08.567Z] [mtgorvxsp78a7pcj0qp] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:08.569Z] [mtgorvxsp78a7pcj0qp] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:08.576Z] [mtgorvw70msilkpxebdr] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:08.579Z] [mtgorvybs1336kesm4a] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:08.581Z] [mtgorvybs1336kesm4a] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:08.586Z] [mtgorvwlew3y3v6444] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:08.589Z] [mtgorvyljy3aulspg78] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:08.592Z] [mtgorvyljy3aulspg78] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:08.599Z] [mtgorvx4nw1736roqce] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:08.602Z] [mtgorvyyoa93hztj1t] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:08.603Z] [mtgorvyyoa93hztj1t] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:08.611Z] [mtgorvxsp78a7pcj0qp] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:08.612Z] [mtgorvz8pyq4mvgst0s] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:08.615Z] [mtgorvz8pyq4mvgst0s] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:25.226Z] [mtgos8sq88ihmtwbmvf] protect() called: {"url":"/admin/products/6a94f46ce83561691154cebd","method":"PUT","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundarynURfzh6vkrOHDrb6"}}
+[2026-08-31T03:36:25.229Z] [mtgos8sq88ihmtwbmvf] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:25.234Z] [mtgos8sq88ihmtwbmvf] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:25.244Z] [mtgos8sq88ihmtwbmvf] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:25.247Z] [mtgos8sq88ihmtwbmvf] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:25.255Z] [mtgos8sq88ihmtwbmvf] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:25.266Z] [mtgos8ttzrstcq02uum] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:25.284Z] [mtgos8ttzrstcq02uum] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:25.446Z] [mtgos8yuv1gc8e0u2p] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:25.453Z] [mtgos8yuv1gc8e0u2p] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:25.461Z] [mtgos8yuv1gc8e0u2p] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:25.484Z] [mtgos8yuv1gc8e0u2p] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:25.495Z] [mtgos8yuv1gc8e0u2p] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:25.513Z] [mtgos90oculkw193n2v] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:25.526Z] [mtgos90oculkw193n2v] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:25.534Z] [mtgos90oculkw193n2v] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:25.540Z] [mtgos90oculkw193n2v] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:25.548Z] [mtgos90oculkw193n2v] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:25.553Z] [mtgos8yuv1gc8e0u2p] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:25.564Z] [mtgos9232hmjiyjq0xk] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:25.568Z] [mtgos9232hmjiyjq0xk] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:25.583Z] [mtgos90oculkw193n2v] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:25.585Z] [mtgos92p0p30iyjhhdoh] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:25.586Z] [mtgos92p0p30iyjhhdoh] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:33.310Z] [mtgosf1aqde6r7qjonb] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:33.312Z] [mtgosf1aqde6r7qjonb] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:33.313Z] [mtgosf1aqde6r7qjonb] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:33.315Z] [mtgosf1aqde6r7qjonb] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:33.316Z] [mtgosf1aqde6r7qjonb] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:33.328Z] [mtgosf1sc6krhhuq7wl] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:33.329Z] [mtgosf1sc6krhhuq7wl] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:33.330Z] [mtgosf1sc6krhhuq7wl] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:33.333Z] [mtgosf1sc6krhhuq7wl] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:33.334Z] [mtgosf1sc6krhhuq7wl] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:33.341Z] [mtgosf25im3wzz9z4pg] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:33.345Z] [mtgosf25im3wzz9z4pg] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:33.346Z] [mtgosf25im3wzz9z4pg] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:33.351Z] [mtgosf25im3wzz9z4pg] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:33.352Z] [mtgosf25im3wzz9z4pg] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:33.362Z] [mtgosf2qt85izh6sez8] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:33.363Z] [mtgosf2qt85izh6sez8] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:33.365Z] [mtgosf2qt85izh6sez8] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:33.367Z] [mtgosf2qt85izh6sez8] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:33.369Z] [mtgosf2qt85izh6sez8] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:33.378Z] [mtgosf1aqde6r7qjonb] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:33.380Z] [mtgosf381v53sqqsuf3] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:33.381Z] [mtgosf381v53sqqsuf3] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:33.385Z] [mtgosf1sc6krhhuq7wl] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:33.389Z] [mtgosf3hbvyhh4anaff] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:33.394Z] [mtgosf3hbvyhh4anaff] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:33.397Z] [mtgosf25im3wzz9z4pg] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:33.399Z] [mtgosf3rjwm9v8n1pbh] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:33.402Z] [mtgosf3rjwm9v8n1pbh] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:33.414Z] [mtgosf2qt85izh6sez8] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:33.416Z] [mtgosf4814lep9diuyh] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:33.418Z] [mtgosf4814lep9diuyh] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:46.867Z] [mtgosphvalzq8ykr2z6] protect() called: {"url":"/admin/products/6a94f46ce83561691154cebd","method":"PUT","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryfenYcj6OBA5wi6eF"}}
+[2026-08-31T03:36:46.871Z] [mtgosphvalzq8ykr2z6] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:46.876Z] [mtgosphvalzq8ykr2z6] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:46.889Z] [mtgosphvalzq8ykr2z6] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:46.895Z] [mtgosphvalzq8ykr2z6] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:46.908Z] [mtgosphvalzq8ykr2z6] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:46.921Z] [mtgospjdu2xmnq2qz8] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:46.942Z] [mtgospjdu2xmnq2qz8] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:47.021Z] [mtgospm51zlbymon0lt] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:47.024Z] [mtgospm51zlbymon0lt] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:47.028Z] [mtgospm51zlbymon0lt] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:47.042Z] [mtgospm51zlbymon0lt] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:47.063Z] [mtgospm51zlbymon0lt] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:47.084Z] [mtgospnwr56mzyvrv3p] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:47.098Z] [mtgospnwr56mzyvrv3p] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:47.100Z] [mtgospnwr56mzyvrv3p] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:47.108Z] [mtgospnwr56mzyvrv3p] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:47.112Z] [mtgospnwr56mzyvrv3p] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:47.124Z] [mtgospm51zlbymon0lt] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:47.127Z] [mtgospp3loe0ul3p9pm] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:47.132Z] [mtgospp3loe0ul3p9pm] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:47.140Z] [mtgospnwr56mzyvrv3p] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:47.144Z] [mtgosppku8ext5hcerg] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:47.148Z] [mtgosppku8ext5hcerg] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:51.874Z] [mtgostcywdn6ptyubaa] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:51.876Z] [mtgostcywdn6ptyubaa] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:51.877Z] [mtgostcywdn6ptyubaa] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:51.880Z] [mtgostcywdn6ptyubaa] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:51.882Z] [mtgostcywdn6ptyubaa] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:51.894Z] [mtgostdiun8tiaawrrf] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:51.896Z] [mtgostdiun8tiaawrrf] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:51.897Z] [mtgostdiun8tiaawrrf] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:51.899Z] [mtgostdiun8tiaawrrf] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:51.900Z] [mtgostdiun8tiaawrrf] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:51.910Z] [mtgostdyajpepuee35] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:51.912Z] [mtgostdyajpepuee35] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:51.913Z] [mtgostdyajpepuee35] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:51.916Z] [mtgostdyajpepuee35] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:51.917Z] [mtgostdyajpepuee35] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:51.928Z] [mtgostegi0q2vg73v7] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:36:51.930Z] [mtgostegi0q2vg73v7] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:36:51.931Z] [mtgostegi0q2vg73v7] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:36:51.934Z] [mtgostegi0q2vg73v7] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:36:51.940Z] [mtgostegi0q2vg73v7] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:36:51.944Z] [mtgostcywdn6ptyubaa] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:51.946Z] [mtgosteyjoyt67vco1s] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:51.948Z] [mtgosteyjoyt67vco1s] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:51.952Z] [mtgostdiun8tiaawrrf] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:51.961Z] [mtgostfdagatay0n24] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:51.963Z] [mtgostfdagatay0n24] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:51.967Z] [mtgostdyajpepuee35] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:51.972Z] [mtgostfnrqxnrv64m8] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:51.975Z] [mtgostfnrqxnrv64m8] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:36:51.980Z] [mtgostegi0q2vg73v7] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:36:51.982Z] [mtgostfyd80gkbtq0t] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:36:51.983Z] [mtgostfyd80gkbtq0t] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:14.042Z] [mtgotagqh7w51w5h8c6] protect() called: {"url":"/orders?page=1&limit=10","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:14.044Z] [mtgotagqh7w51w5h8c6] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:14.047Z] [mtgotagqh7w51w5h8c6] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:14.058Z] [mtgotagqh7w51w5h8c6] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:14.061Z] [mtgotagqh7w51w5h8c6] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:14.067Z] [mtgotagqh7w51w5h8c6] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:14.073Z] [mtgotahlbfr08k5qx0g] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:14.076Z] [mtgotahlbfr08k5qx0g] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:14.099Z] [mtgotaibstgngv3wt4] protect() called: {"url":"/orders?page=1&limit=10","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:14.100Z] [mtgotaibstgngv3wt4] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:14.107Z] [mtgotaibstgngv3wt4] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:14.111Z] [mtgotaibstgngv3wt4] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:14.114Z] [mtgotaibstgngv3wt4] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:14.123Z] [mtgotaibstgngv3wt4] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:14.125Z] [mtgotaj1laedh4zndfk] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:14.127Z] [mtgotaj1laedh4zndfk] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:15.328Z] [mtgotbggtxptubledw] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:15.332Z] [mtgotbggtxptubledw] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:15.337Z] [mtgotbggtxptubledw] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:15.352Z] [mtgotbggtxptubledw] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:15.360Z] [mtgotbggtxptubledw] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:15.366Z] [mtgotbhilty8ezb048] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:15.370Z] [mtgotbhilty8ezb048] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:15.376Z] [mtgotbhilty8ezb048] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:15.380Z] [mtgotbhilty8ezb048] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:15.383Z] [mtgotbhilty8ezb048] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:15.390Z] [mtgotbggtxptubledw] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:15.392Z] [mtgotbi88ourzxhmfc6] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:15.395Z] [mtgotbi88ourzxhmfc6] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:15.399Z] [mtgotbhilty8ezb048] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:15.407Z] [mtgotbin10rgv3k8v6j] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:15.410Z] [mtgotbin10rgv3k8v6j] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:15.428Z] [mtgotbj8phg1r5i3nmd] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:15.430Z] [mtgotbj8phg1r5i3nmd] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:15.432Z] [mtgotbj8phg1r5i3nmd] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:15.439Z] [mtgotbj8phg1r5i3nmd] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:15.442Z] [mtgotbj8phg1r5i3nmd] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:15.447Z] [mtgotbjruc0zc4sj2nb] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:15.450Z] [mtgotbjruc0zc4sj2nb] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:15.456Z] [mtgotbjruc0zc4sj2nb] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:15.461Z] [mtgotbjruc0zc4sj2nb] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:15.463Z] [mtgotbjruc0zc4sj2nb] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:15.468Z] [mtgotbj8phg1r5i3nmd] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:15.475Z] [mtgotbkj0fw8iegh0ore] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:15.477Z] [mtgotbkj0fw8iegh0ore] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:15.482Z] [mtgotbjruc0zc4sj2nb] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:15.483Z] [mtgotbkry7t0lhlfl1n] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:15.486Z] [mtgotbkry7t0lhlfl1n] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:23.020Z] [mtgothe46iw8t2cjk7a] protect() called: {"url":"/admin/products/6a94f46ce83561691154cebd","method":"DELETE","headers":{"authorization":"Bearer [PRESENT]"}}
+[2026-08-31T03:37:23.025Z] [mtgothe46iw8t2cjk7a] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:23.035Z] [mtgothe46iw8t2cjk7a] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:23.062Z] [mtgothe46iw8t2cjk7a] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:23.066Z] [mtgothe46iw8t2cjk7a] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:23.083Z] [mtgothe46iw8t2cjk7a] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:23.095Z] [mtgothg71z6mld20tr8] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:23.098Z] [mtgothg71z6mld20tr8] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:23.146Z] [mtgothhm2jg642srft5] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:23.148Z] [mtgothhm2jg642srft5] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:23.150Z] [mtgothhm2jg642srft5] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:23.162Z] [mtgothhm2jg642srft5] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:23.165Z] [mtgothhm2jg642srft5] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:23.180Z] [mtgothhm2jg642srft5] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:23.181Z] [mtgothily5guc1nbqwb] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:23.183Z] [mtgothily5guc1nbqwb] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:50.322Z] [mtgou2gi3emj8nh4dps] protect() called: {"url":"/admin/products","method":"POST","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryAPomFmNzUaDe0HGK"}}
+[2026-08-31T03:37:50.326Z] [mtgou2gi3emj8nh4dps] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:50.332Z] [mtgou2gi3emj8nh4dps] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:50.339Z] [mtgou2gi3emj8nh4dps] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:50.341Z] [mtgou2gi3emj8nh4dps] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:50.348Z] [mtgou2gi3emj8nh4dps] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:50.361Z] [mtgou2hlmm6qdm7iqzg] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:50.369Z] [mtgou2hlmm6qdm7iqzg] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:50.478Z] [mtgou2kubclp6ju9y6d] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:50.480Z] [mtgou2kubclp6ju9y6d] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:50.482Z] [mtgou2kubclp6ju9y6d] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:50.492Z] [mtgou2kubclp6ju9y6d] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:50.494Z] [mtgou2kubclp6ju9y6d] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:50.498Z] [mtgou2leliea3bftpp] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:50.502Z] [mtgou2leliea3bftpp] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:50.512Z] [mtgou2leliea3bftpp] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:50.516Z] [mtgou2leliea3bftpp] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:50.526Z] [mtgou2leliea3bftpp] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:50.532Z] [mtgou2kubclp6ju9y6d] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:50.545Z] [mtgou2mp1s7ily5jgal] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:50.548Z] [mtgou2mp1s7ily5jgal] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:50.565Z] [mtgou2leliea3bftpp] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:50.567Z] [mtgou2nbg461ttn643p] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:50.577Z] [mtgou2nbg461ttn643p] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:58.391Z] [mtgou8on5u6w92t89x5] protect() called: {"url":"/orders?page=1&limit=10","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:58.394Z] [mtgou8on5u6w92t89x5] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:58.400Z] [mtgou8on5u6w92t89x5] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:58.409Z] [mtgou8on5u6w92t89x5] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:58.413Z] [mtgou8on5u6w92t89x5] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:58.430Z] [mtgou8on5u6w92t89x5] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:58.432Z] [mtgou8pscrlkq4r69h] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:58.437Z] [mtgou8pscrlkq4r69h] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:58.461Z] [mtgou8qlo112t47x7dc] protect() called: {"url":"/orders?page=1&limit=10","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:58.463Z] [mtgou8qlo112t47x7dc] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:58.464Z] [mtgou8qlo112t47x7dc] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:58.472Z] [mtgou8qlo112t47x7dc] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:58.475Z] [mtgou8qlo112t47x7dc] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:58.480Z] [mtgou8qlo112t47x7dc] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:58.482Z] [mtgou8r6gadftkmudsr] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:58.485Z] [mtgou8r6gadftkmudsr] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:59.347Z] [mtgou9f7vtrhuazuf3f] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:59.350Z] [mtgou9f7vtrhuazuf3f] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:59.356Z] [mtgou9f7vtrhuazuf3f] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:59.372Z] [mtgou9f7vtrhuazuf3f] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:59.376Z] [mtgou9f7vtrhuazuf3f] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:59.386Z] [mtgou9gaedhitgwkmr] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:59.391Z] [mtgou9gaedhitgwkmr] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:59.393Z] [mtgou9gaedhitgwkmr] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:59.396Z] [mtgou9gaedhitgwkmr] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:59.399Z] [mtgou9gaedhitgwkmr] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:59.409Z] [mtgou9f7vtrhuazuf3f] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:59.411Z] [mtgou9gzm6vukly9da] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:59.412Z] [mtgou9gzm6vukly9da] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:59.415Z] [mtgou9gaedhitgwkmr] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:59.422Z] [mtgou9hazdpqfbeubn] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:59.424Z] [mtgou9hazdpqfbeubn] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:59.432Z] [mtgou9hkxr8r8no2yh] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:59.440Z] [mtgou9hkxr8r8no2yh] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:59.442Z] [mtgou9hkxr8r8no2yh] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:59.445Z] [mtgou9hkxr8r8no2yh] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:59.447Z] [mtgou9hkxr8r8no2yh] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:59.456Z] [mtgou9hkxr8r8no2yh] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:59.458Z] [mtgou9iamk5axkzovn] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:59.460Z] [mtgou9iamk5axkzovn] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:37:59.473Z] [mtgou9iphpa866nb71] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:37:59.476Z] [mtgou9iphpa866nb71] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:37:59.477Z] [mtgou9iphpa866nb71] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:37:59.480Z] [mtgou9iphpa866nb71] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:37:59.481Z] [mtgou9iphpa866nb71] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:37:59.492Z] [mtgou9iphpa866nb71] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:37:59.494Z] [mtgou9jay9pwu9j3ear] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:37:59.495Z] [mtgou9jay9pwu9j3ear] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:00.268Z] [mtgoua4s4nxgdtvrrhv] protect() called: {"url":"/admin/contact","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:00.272Z] [mtgoua4s4nxgdtvrrhv] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:00.277Z] [mtgoua4s4nxgdtvrrhv] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:00.296Z] [mtgoua4s4nxgdtvrrhv] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:00.307Z] [mtgoua4s4nxgdtvrrhv] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:00.337Z] [mtgoua4s4nxgdtvrrhv] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:00.345Z] [mtgoua6x9jnj1i8hvz] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:00.356Z] [mtgoua6x9jnj1i8hvz] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:00.375Z] [mtgoua7rfjtc3unysap] protect() called: {"url":"/admin/contact","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:00.378Z] [mtgoua7rfjtc3unysap] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:00.381Z] [mtgoua7rfjtc3unysap] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:00.392Z] [mtgoua7rfjtc3unysap] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:00.393Z] [mtgoua7rfjtc3unysap] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:00.402Z] [mtgoua7rfjtc3unysap] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:00.406Z] [mtgoua8md3vb16o3unn] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:00.408Z] [mtgoua8md3vb16o3unn] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:01.952Z] [mtgoubfk4gz8xxfl2br] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:01.953Z] [mtgoubfk4gz8xxfl2br] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:01.955Z] [mtgoubfk4gz8xxfl2br] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:01.960Z] [mtgoubfk4gz8xxfl2br] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:01.964Z] [mtgoubfk4gz8xxfl2br] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:01.977Z] [mtgoubg9t3r4fup9rab] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:01.979Z] [mtgoubg9t3r4fup9rab] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:01.981Z] [mtgoubg9t3r4fup9rab] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:01.988Z] [mtgoubg9t3r4fup9rab] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:01.992Z] [mtgoubg9t3r4fup9rab] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:01.997Z] [mtgoubfk4gz8xxfl2br] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:02.003Z] [mtgoubgz6cxt1kjo2ip] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:02.009Z] [mtgoubgz6cxt1kjo2ip] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:02.014Z] [mtgoubg9t3r4fup9rab] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:02.020Z] [mtgoubhfyh5lg78sncj] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:02.025Z] [mtgoubhfyh5lg78sncj] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:02.042Z] [mtgoubi2gyl04vynvwj] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:02.044Z] [mtgoubi2gyl04vynvwj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:02.046Z] [mtgoubi2gyl04vynvwj] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:02.051Z] [mtgoubi2gyl04vynvwj] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:02.057Z] [mtgoubi2gyl04vynvwj] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:02.063Z] [mtgoubi2gyl04vynvwj] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:02.065Z] [mtgoubip483l9nbj1n] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:02.073Z] [mtgoubip483l9nbj1n] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:02.078Z] [mtgoubj2zujrjuhl4wc] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:02.079Z] [mtgoubj2zujrjuhl4wc] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:02.081Z] [mtgoubj2zujrjuhl4wc] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:02.088Z] [mtgoubj2zujrjuhl4wc] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:02.091Z] [mtgoubj2zujrjuhl4wc] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:02.096Z] [mtgoubj2zujrjuhl4wc] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:02.098Z] [mtgoubjmkzvpmwoqmu] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:02.104Z] [mtgoubjmkzvpmwoqmu] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:02.948Z] [mtgouc781x3ewhxt8wd] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:02.951Z] [mtgouc781x3ewhxt8wd] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:02.954Z] [mtgouc781x3ewhxt8wd] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:02.959Z] [mtgouc781x3ewhxt8wd] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:02.961Z] [mtgouc781x3ewhxt8wd] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:02.974Z] [mtgouc781x3ewhxt8wd] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:02.977Z] [mtgouc81blgvl19m979] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:02.979Z] [mtgouc81blgvl19m979] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:02.997Z] [mtgouc8lzkvw18kd2ma] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:02.998Z] [mtgouc8lzkvw18kd2ma] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.002Z] [mtgouc8lzkvw18kd2ma] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.010Z] [mtgouc8lzkvw18kd2ma] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.012Z] [mtgouc8lzkvw18kd2ma] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.023Z] [mtgouc8lzkvw18kd2ma] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.025Z] [mtgouc9d502y52m3cqu] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.026Z] [mtgouc9d502y52m3cqu] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:03.034Z] [mtgouc9mesrqgy2pk9d] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:03.039Z] [mtgouc9mesrqgy2pk9d] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.042Z] [mtgouc9mesrqgy2pk9d] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.046Z] [mtgouc9mesrqgy2pk9d] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.049Z] [mtgouc9mesrqgy2pk9d] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.057Z] [mtgouc9mesrqgy2pk9d] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.059Z] [mtgoucabirp3tne5n8r] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.061Z] [mtgoucabirp3tne5n8r] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:03.063Z] [mtgoucafkbak8z6nnh] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:03.064Z] [mtgoucafkbak8z6nnh] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.065Z] [mtgoucafkbak8z6nnh] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.073Z] [mtgoucafkbak8z6nnh] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.075Z] [mtgoucafkbak8z6nnh] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.080Z] [mtgoucafkbak8z6nnh] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.081Z] [mtgoucax2c1onopbhh3] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.085Z] [mtgoucax2c1onopbhh3] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:03.105Z] [mtgoucbl9lch5n2r40k] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:03.107Z] [mtgoucbl9lch5n2r40k] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.108Z] [mtgoucbl9lch5n2r40k] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.112Z] [mtgoucbl9lch5n2r40k] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.113Z] [mtgoucbl9lch5n2r40k] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.122Z] [mtgoucbl9lch5n2r40k] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.124Z] [mtgoucc47cgkn7i54v9] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.126Z] [mtgoucc47cgkn7i54v9] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:03.127Z] [mtgoucc7k3n7dcurgs] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:03.129Z] [mtgoucc7k3n7dcurgs] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.130Z] [mtgoucc7k3n7dcurgs] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.137Z] [mtgoucc7k3n7dcurgs] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.140Z] [mtgoucc7k3n7dcurgs] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.144Z] [mtgouccojpslrpp9q7] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:03.145Z] [mtgouccojpslrpp9q7] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.147Z] [mtgouccojpslrpp9q7] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.151Z] [mtgouccojpslrpp9q7] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.161Z] [mtgouccojpslrpp9q7] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.183Z] [mtgoucc7k3n7dcurgs] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.190Z] [mtgoucdy5f4vgofu0wn] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.191Z] [mtgoucdy5f4vgofu0wn] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:03.196Z] [mtgouccojpslrpp9q7] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.197Z] [mtgouce5cl9scm3b2zc] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.203Z] [mtgouce5cl9scm3b2zc] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:03.224Z] [mtgoucew9hhbllj5fv8] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:03.225Z] [mtgoucew9hhbllj5fv8] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:03.226Z] [mtgoucew9hhbllj5fv8] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:03.229Z] [mtgoucew9hhbllj5fv8] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:03.230Z] [mtgoucew9hhbllj5fv8] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:03.239Z] [mtgoucew9hhbllj5fv8] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:03.240Z] [mtgoucfco50bsktii5b] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:03.242Z] [mtgoucfco50bsktii5b] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.080Z] [mtgoug5sjftemar9sdb] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.084Z] [mtgoug5sjftemar9sdb] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.091Z] [mtgoug5sjftemar9sdb] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.130Z] [mtgoug5sjftemar9sdb] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.152Z] [mtgoug5sjftemar9sdb] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.196Z] [mtgoug5sjftemar9sdb] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.218Z] [mtgoug9ms567ys0viw] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.239Z] [mtgoug9ms567ys0viw] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.276Z] [mtgougb8zdt7iegfu7j] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.288Z] [mtgougb8zdt7iegfu7j] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.297Z] [mtgougb8zdt7iegfu7j] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.307Z] [mtgougb8zdt7iegfu7j] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.308Z] [mtgougb8zdt7iegfu7j] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.314Z] [mtgougb8zdt7iegfu7j] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.317Z] [mtgougcc5rp0tbsyoh6] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.322Z] [mtgougcc5rp0tbsyoh6] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.328Z] [mtgougcop8phk6qnh] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.329Z] [mtgougcop8phk6qnh] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.331Z] [mtgougcop8phk6qnh] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.338Z] [mtgougcop8phk6qnh] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.341Z] [mtgougcop8phk6qnh] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.347Z] [mtgougcop8phk6qnh] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.355Z] [mtgougdf5y7cn9975x] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.357Z] [mtgougdf5y7cn9975x] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.359Z] [mtgougdjql09poh366] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.360Z] [mtgougdjql09poh366] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.362Z] [mtgougdjql09poh366] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.366Z] [mtgougdjql09poh366] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.376Z] [mtgougdjql09poh366] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.381Z] [mtgougdjql09poh366] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.387Z] [mtgougebfxy1byh89al] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.389Z] [mtgougebfxy1byh89al] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.405Z] [mtgouget1n6l9kezqly] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.406Z] [mtgouget1n6l9kezqly] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.408Z] [mtgouget1n6l9kezqly] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.412Z] [mtgouget1n6l9kezqly] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.413Z] [mtgouget1n6l9kezqly] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.421Z] [mtgouget1n6l9kezqly] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.423Z] [mtgougfbog53hux33be] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.425Z] [mtgougfbog53hux33be] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.426Z] [mtgougfe1ta7yky76aq] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.428Z] [mtgougfe1ta7yky76aq] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.429Z] [mtgougfe1ta7yky76aq] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.434Z] [mtgougfe1ta7yky76aq] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.438Z] [mtgougfe1ta7yky76aq] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.442Z] [mtgougfua95vsry0g7m] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.444Z] [mtgougfua95vsry0g7m] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.445Z] [mtgougfua95vsry0g7m] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.447Z] [mtgougfua95vsry0g7m] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.450Z] [mtgougfua95vsry0g7m] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.458Z] [mtgougfe1ta7yky76aq] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.460Z] [mtgouggcir2lbmkefig] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.462Z] [mtgouggcir2lbmkefig] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.468Z] [mtgougfua95vsry0g7m] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.473Z] [mtgouggpfduahouj0h] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.477Z] [mtgouggpfduahouj0h] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:38:08.497Z] [mtgoughdjc5gnstpaqa] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:38:08.498Z] [mtgoughdjc5gnstpaqa] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:38:08.502Z] [mtgoughdjc5gnstpaqa] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:38:08.507Z] [mtgoughdjc5gnstpaqa] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:38:08.508Z] [mtgoughdjc5gnstpaqa] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:38:08.513Z] [mtgoughdjc5gnstpaqa] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:38:08.514Z] [mtgoughu98lopbs70io] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:38:08.516Z] [mtgoughu98lopbs70io] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.334Z] [mtgow7mmhpaahb8q68o] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.335Z] [mtgow7mmhpaahb8q68o] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.336Z] [mtgow7mmhpaahb8q68o] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.338Z] [mtgow7mmhpaahb8q68o] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.339Z] [mtgow7mmhpaahb8q68o] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.351Z] [mtgow7mmhpaahb8q68o] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.353Z] [mtgow7n5im8lnfxs6q] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.354Z] [mtgow7n5im8lnfxs6q] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.368Z] [mtgow7nk9ho8dnp8no8] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.370Z] [mtgow7nk9ho8dnp8no8] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.370Z] [mtgow7nk9ho8dnp8no8] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.373Z] [mtgow7nk9ho8dnp8no8] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.375Z] [mtgow7nk9ho8dnp8no8] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.387Z] [mtgow7nk9ho8dnp8no8] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.389Z] [mtgow7o5c1ara2hh1vh] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.391Z] [mtgow7o5c1ara2hh1vh] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.402Z] [mtgow7oi8ujbn8jr8nq] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.409Z] [mtgow7oi8ujbn8jr8nq] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.422Z] [mtgow7oi8ujbn8jr8nq] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.433Z] [mtgow7oi8ujbn8jr8nq] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.438Z] [mtgow7oi8ujbn8jr8nq] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.449Z] [mtgow7oi8ujbn8jr8nq] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.453Z] [mtgow7pxqr1w35valrh] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.455Z] [mtgow7pxqr1w35valrh] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.457Z] [mtgow7q19nd9405xs7v] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.459Z] [mtgow7q19nd9405xs7v] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.461Z] [mtgow7q19nd9405xs7v] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.470Z] [mtgow7q19nd9405xs7v] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.471Z] [mtgow7q19nd9405xs7v] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.476Z] [mtgow7q19nd9405xs7v] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.484Z] [mtgow7qr8glqlpsd2sc] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.486Z] [mtgow7qr8glqlpsd2sc] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.503Z] [mtgow7rbv9ycdalfrro] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.505Z] [mtgow7rbv9ycdalfrro] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.507Z] [mtgow7rbv9ycdalfrro] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.514Z] [mtgow7rbv9ycdalfrro] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.519Z] [mtgow7rbv9ycdalfrro] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.524Z] [mtgow7rbv9ycdalfrro] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.525Z] [mtgow7rx57b9r8gfb8b] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.527Z] [mtgow7rx57b9r8gfb8b] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.534Z] [mtgow7s69lwjkexlxmr] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.536Z] [mtgow7s69lwjkexlxmr] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.537Z] [mtgow7s69lwjkexlxmr] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.540Z] [mtgow7s69lwjkexlxmr] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.541Z] [mtgow7s69lwjkexlxmr] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.551Z] [mtgow7sncu4urea7fqh] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.553Z] [mtgow7sncu4urea7fqh] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.554Z] [mtgow7sncu4urea7fqh] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.557Z] [mtgow7sncu4urea7fqh] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.558Z] [mtgow7sncu4urea7fqh] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.568Z] [mtgow7s69lwjkexlxmr] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.569Z] [mtgow7t5girw2ymhahm] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.570Z] [mtgow7t5girw2ymhahm] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.574Z] [mtgow7sncu4urea7fqh] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.575Z] [mtgow7tb0edhnaj6mca] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.576Z] [mtgow7tb0edhnaj6mca] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:30.594Z] [mtgow7tufzr8051g0ca] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:30.602Z] [mtgow7tufzr8051g0ca] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:30.604Z] [mtgow7tufzr8051g0ca] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:30.608Z] [mtgow7tufzr8051g0ca] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:30.609Z] [mtgow7tufzr8051g0ca] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:30.621Z] [mtgow7tufzr8051g0ca] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:30.622Z] [mtgow7umnsjy7xc94c] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:30.624Z] [mtgow7umnsjy7xc94c] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:32.860Z] [mtgow9ks7ie8mpdrqjp] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:32.862Z] [mtgow9ks7ie8mpdrqjp] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:32.864Z] [mtgow9ks7ie8mpdrqjp] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:32.869Z] [mtgow9ks7ie8mpdrqjp] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:32.874Z] [mtgow9ks7ie8mpdrqjp] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:32.880Z] [mtgow9lc72xqduh7f9s] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:32.884Z] [mtgow9lc72xqduh7f9s] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:32.886Z] [mtgow9lc72xqduh7f9s] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:32.892Z] [mtgow9lc72xqduh7f9s] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:32.894Z] [mtgow9lc72xqduh7f9s] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:32.906Z] [mtgow9ks7ie8mpdrqjp] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:32.908Z] [mtgow9m4bg9hhg7bx3l] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:32.911Z] [mtgow9m4bg9hhg7bx3l] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:32.924Z] [mtgow9lc72xqduh7f9s] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:32.926Z] [mtgow9mm2iek1b64v63] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:32.930Z] [mtgow9mm2iek1b64v63] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:32.957Z] [mtgow9nhvik0atkgwyq] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:32.961Z] [mtgow9nhvik0atkgwyq] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:32.968Z] [mtgow9nhvik0atkgwyq] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:32.974Z] [mtgow9nhvik0atkgwyq] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:32.976Z] [mtgow9nhvik0atkgwyq] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:32.990Z] [mtgow9nhvik0atkgwyq] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:32.993Z] [mtgow9ohjg2zfskc6fe] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:32.996Z] [mtgow9ohjg2zfskc6fe] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:33.008Z] [mtgow9owdpod13jozwa] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:33.012Z] [mtgow9owdpod13jozwa] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:33.024Z] [mtgow9owdpod13jozwa] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:33.028Z] [mtgow9owdpod13jozwa] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:33.033Z] [mtgow9owdpod13jozwa] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:33.041Z] [mtgow9owdpod13jozwa] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:33.043Z] [mtgow9pvbeg7x4kbexj] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:33.046Z] [mtgow9pvbeg7x4kbexj] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:46.871Z] [mtgowkdzrp6v2qqib7g] protect() called: {"url":"/admin/products/6a94f70e1b6c22f219461e3a","method":"PUT","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryoSLGpiOOlAsAFNSA"}}
+[2026-08-31T03:39:46.885Z] [mtgowkdzrp6v2qqib7g] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:46.942Z] [mtgowkdzrp6v2qqib7g] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:46.988Z] [mtgowkdzrp6v2qqib7g] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:47.025Z] [mtgowkdzrp6v2qqib7g] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:47.109Z] [mtgowkdzrp6v2qqib7g] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:47.190Z] [mtgowkmuzf2ihpgwe1] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:47.239Z] [mtgowkmuzf2ihpgwe1] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:47.587Z] [mtgowkxvd0fjliv5p] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:47.675Z] [mtgowkxvd0fjliv5p] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:47.786Z] [mtgowkxvd0fjliv5p] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:47.988Z] [mtgowkxvd0fjliv5p] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:48.054Z] [mtgowkxvd0fjliv5p] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:48.125Z] [mtgowlctjnxvnhic79] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:39:48.159Z] [mtgowlctjnxvnhic79] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:39:48.199Z] [mtgowlctjnxvnhic79] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:39:48.232Z] [mtgowlctjnxvnhic79] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:39:48.252Z] [mtgowlctjnxvnhic79] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:39:48.293Z] [mtgowkxvd0fjliv5p] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:48.323Z] [mtgowlib4nqhkredth4] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:48.354Z] [mtgowlib4nqhkredth4] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:39:48.374Z] [mtgowlctjnxvnhic79] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:39:48.391Z] [mtgowlk72z2x9ui7eps] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:39:48.411Z] [mtgowlk72z2x9ui7eps] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:23.080Z] [mtgoxcbslna8fccanoj] protect() called: {"url":"/admin/products/6a94f70e1b6c22f219461e3a","method":"DELETE","headers":{"authorization":"Bearer [PRESENT]"}}
+[2026-08-31T03:40:23.085Z] [mtgoxcbslna8fccanoj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:23.092Z] [mtgoxcbslna8fccanoj] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:23.103Z] [mtgoxcbslna8fccanoj] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:23.106Z] [mtgoxcbslna8fccanoj] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:23.121Z] [mtgoxcbslna8fccanoj] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:23.124Z] [mtgoxcczci5f5kfmrr] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:23.127Z] [mtgoxcczci5f5kfmrr] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:23.151Z] [mtgoxcdrqxmgmivqks] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:23.152Z] [mtgoxcdrqxmgmivqks] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:23.154Z] [mtgoxcdrqxmgmivqks] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:23.158Z] [mtgoxcdrqxmgmivqks] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:23.164Z] [mtgoxcdrqxmgmivqks] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:23.174Z] [mtgoxcdrqxmgmivqks] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:23.178Z] [mtgoxceixueje6pjae] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:23.186Z] [mtgoxceixueje6pjae] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:24.915Z] [mtgoxdqrl4fdi9pnb7f] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:24.918Z] [mtgoxdqrl4fdi9pnb7f] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:24.922Z] [mtgoxdqrl4fdi9pnb7f] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:24.940Z] [mtgoxdqrl4fdi9pnb7f] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:24.947Z] [mtgoxdqrl4fdi9pnb7f] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:24.955Z] [mtgoxdqrl4fdi9pnb7f] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:24.956Z] [mtgoxdrwq7eq6hp8sub] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:24.958Z] [mtgoxdrwq7eq6hp8sub] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:24.986Z] [mtgoxdsqs4mqyys54i8] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:24.988Z] [mtgoxdsqs4mqyys54i8] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:24.990Z] [mtgoxdsqs4mqyys54i8] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:24.996Z] [mtgoxdsqs4mqyys54i8] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:24.999Z] [mtgoxdsqs4mqyys54i8] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.006Z] [mtgoxdsqs4mqyys54i8] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.016Z] [mtgoxdtkkp6w8rwwjv] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.018Z] [mtgoxdtkkp6w8rwwjv] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:25.022Z] [mtgoxdtqzf7wr0nmffr] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:25.023Z] [mtgoxdtqzf7wr0nmffr] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:25.025Z] [mtgoxdtqzf7wr0nmffr] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:25.034Z] [mtgoxdtqzf7wr0nmffr] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:25.036Z] [mtgoxdtqzf7wr0nmffr] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.041Z] [mtgoxdtqzf7wr0nmffr] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.050Z] [mtgoxdui3bzjoscal16] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.052Z] [mtgoxdui3bzjoscal16] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:25.053Z] [mtgoxdulchqvqy55t3] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:25.056Z] [mtgoxdulchqvqy55t3] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:25.058Z] [mtgoxdulchqvqy55t3] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:25.068Z] [mtgoxdulchqvqy55t3] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:25.069Z] [mtgoxdulchqvqy55t3] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.074Z] [mtgoxdulchqvqy55t3] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.079Z] [mtgoxdvbnele8522j3] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.083Z] [mtgoxdvbnele8522j3] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:25.099Z] [mtgoxdvv7q8h9emz05d] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:25.101Z] [mtgoxdvv7q8h9emz05d] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:25.103Z] [mtgoxdvv7q8h9emz05d] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:25.115Z] [mtgoxdvv7q8h9emz05d] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:25.121Z] [mtgoxdvv7q8h9emz05d] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.136Z] [mtgoxdvv7q8h9emz05d] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.139Z] [mtgoxdwz6ojhgyg8dly] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.141Z] [mtgoxdwz6ojhgyg8dly] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:25.148Z] [mtgoxdx8bvqiupf8l0l] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:25.153Z] [mtgoxdx8bvqiupf8l0l] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:25.155Z] [mtgoxdx8bvqiupf8l0l] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:25.163Z] [mtgoxdx8bvqiupf8l0l] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:25.168Z] [mtgoxdx8bvqiupf8l0l] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.172Z] [mtgoxdxw4xcsbbq88xb] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:25.173Z] [mtgoxdxw4xcsbbq88xb] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:25.175Z] [mtgoxdxw4xcsbbq88xb] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:25.187Z] [mtgoxdxw4xcsbbq88xb] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:25.189Z] [mtgoxdxw4xcsbbq88xb] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.197Z] [mtgoxdx8bvqiupf8l0l] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.200Z] [mtgoxdyozgtkoavcqma] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.201Z] [mtgoxdyozgtkoavcqma] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:25.205Z] [mtgoxdxw4xcsbbq88xb] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.206Z] [mtgoxdyu7nyr634mjy] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.212Z] [mtgoxdyu7nyr634mjy] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:40:25.224Z] [mtgoxdzceu3u1ntuyzc] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:40:25.226Z] [mtgoxdzceu3u1ntuyzc] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:40:25.232Z] [mtgoxdzceu3u1ntuyzc] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:40:25.235Z] [mtgoxdzceu3u1ntuyzc] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:40:25.236Z] [mtgoxdzceu3u1ntuyzc] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:40:25.240Z] [mtgoxdzceu3u1ntuyzc] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:40:25.244Z] [mtgoxdzwrqe73o0xey8] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:40:25.250Z] [mtgoxdzwrqe73o0xey8] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.670Z] [mtgp0dkuxhrkugain9] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.673Z] [mtgp0dkuxhrkugain9] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.679Z] [mtgp0dkuxhrkugain9] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.693Z] [mtgp0dkuxhrkugain9] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.695Z] [mtgp0dkuxhrkugain9] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.703Z] [mtgp0dkuxhrkugain9] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.707Z] [mtgp0dlvre2xwacj73] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.709Z] [mtgp0dlvre2xwacj73] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.727Z] [mtgp0dmffg7nvsiibnb] protect() called: {"url":"/orders?page=1&limit=5","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.729Z] [mtgp0dmffg7nvsiibnb] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.730Z] [mtgp0dmffg7nvsiibnb] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.732Z] [mtgp0dmffg7nvsiibnb] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.734Z] [mtgp0dmffg7nvsiibnb] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.743Z] [mtgp0dmffg7nvsiibnb] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.745Z] [mtgp0dmxuok9v2cocvj] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.747Z] [mtgp0dmxuok9v2cocvj] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.749Z] [mtgp0dn1jiz07aejvwk] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.751Z] [mtgp0dn1jiz07aejvwk] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.752Z] [mtgp0dn1jiz07aejvwk] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.760Z] [mtgp0dn1jiz07aejvwk] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.763Z] [mtgp0dn1jiz07aejvwk] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.768Z] [mtgp0dn1jiz07aejvwk] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.775Z] [mtgp0dnrsjrz93texd] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.777Z] [mtgp0dnrsjrz93texd] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.779Z] [mtgp0dnv2joeh1pd3xs] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.780Z] [mtgp0dnv2joeh1pd3xs] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.782Z] [mtgp0dnv2joeh1pd3xs] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.785Z] [mtgp0dnv2joeh1pd3xs] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.793Z] [mtgp0dnv2joeh1pd3xs] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.799Z] [mtgp0dnv2joeh1pd3xs] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.801Z] [mtgp0doh33g3gtiw1r1] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.808Z] [mtgp0doh33g3gtiw1r1] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.832Z] [mtgp0dpc4h7kv8k161d] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.844Z] [mtgp0dpc4h7kv8k161d] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.847Z] [mtgp0dpc4h7kv8k161d] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.850Z] [mtgp0dpc4h7kv8k161d] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.852Z] [mtgp0dpc4h7kv8k161d] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.879Z] [mtgp0dqncgpqrh61e4i] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.881Z] [mtgp0dqncgpqrh61e4i] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.884Z] [mtgp0dqncgpqrh61e4i] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.899Z] [mtgp0dqncgpqrh61e4i] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.910Z] [mtgp0dqncgpqrh61e4i] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.927Z] [mtgp0dpc4h7kv8k161d] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.929Z] [mtgp0ds14jm9n9uk748] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.931Z] [mtgp0ds14jm9n9uk748] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.933Z] [mtgp0ds5bon0all53ys] protect() called: {"url":"/users?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.934Z] [mtgp0ds5bon0all53ys] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.935Z] [mtgp0ds5bon0all53ys] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.944Z] [mtgp0ds5bon0all53ys] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.945Z] [mtgp0ds5bon0all53ys] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.949Z] [mtgp0dqncgpqrh61e4i] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.950Z] [mtgp0dsmim9s5c5vp3] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.952Z] [mtgp0dsmim9s5c5vp3] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.962Z] [mtgp0ds5bon0all53ys] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:44.964Z] [mtgp0dt05fn2d1tl9fw] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:44.965Z] [mtgp0dt05fn2d1tl9fw] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:44.983Z] [mtgp0dtj2q4lkp2qmqj] protect() called: {"url":"/admin/products?page=1&limit=1","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:44.984Z] [mtgp0dtj2q4lkp2qmqj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:44.986Z] [mtgp0dtj2q4lkp2qmqj] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:44.993Z] [mtgp0dtj2q4lkp2qmqj] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:44.994Z] [mtgp0dtj2q4lkp2qmqj] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:44.999Z] [mtgp0dtj2q4lkp2qmqj] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:45.001Z] [mtgp0du1rxofmakypbk] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:45.005Z] [mtgp0du1rxofmakypbk] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:49.332Z] [mtgp0h6c2ijn3tsz0q3] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:49.336Z] [mtgp0h6c2ijn3tsz0q3] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:49.340Z] [mtgp0h6c2ijn3tsz0q3] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:49.349Z] [mtgp0h6c2ijn3tsz0q3] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:49.357Z] [mtgp0h6c2ijn3tsz0q3] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:49.365Z] [mtgp0h795k1f6w7n36e] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:49.367Z] [mtgp0h795k1f6w7n36e] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:49.371Z] [mtgp0h795k1f6w7n36e] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:49.380Z] [mtgp0h795k1f6w7n36e] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:49.382Z] [mtgp0h795k1f6w7n36e] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:49.390Z] [mtgp0h6c2ijn3tsz0q3] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:49.395Z] [mtgp0h83aq6uef27k7t] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:49.398Z] [mtgp0h83aq6uef27k7t] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:49.405Z] [mtgp0h795k1f6w7n36e] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:49.411Z] [mtgp0h8jm4vzml36han] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:49.413Z] [mtgp0h8jm4vzml36han] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:49.428Z] [mtgp0h900ej4v4xusic5] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:49.433Z] [mtgp0h900ej4v4xusic5] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:49.441Z] [mtgp0h900ej4v4xusic5] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:49.447Z] [mtgp0h900ej4v4xusic5] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:49.448Z] [mtgp0h900ej4v4xusic5] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:49.460Z] [mtgp0h900ej4v4xusic5] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:49.461Z] [mtgp0h9x0ckladzlpnti] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:49.462Z] [mtgp0h9x0ckladzlpnti] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:42:49.466Z] [mtgp0ha2kg7g1qmdcdj] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:42:49.467Z] [mtgp0ha2kg7g1qmdcdj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:42:49.470Z] [mtgp0ha2kg7g1qmdcdj] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:42:49.476Z] [mtgp0ha2kg7g1qmdcdj] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:42:49.477Z] [mtgp0ha2kg7g1qmdcdj] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:42:49.482Z] [mtgp0ha2kg7g1qmdcdj] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:42:49.484Z] [mtgp0hak5mqjg0aajz] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:42:49.485Z] [mtgp0hak5mqjg0aajz] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:46:23.887Z] [mtgp52q72yevzfp4ang] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:46:23.889Z] [mtgp52q72yevzfp4ang] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:46:23.891Z] [mtgp52q72yevzfp4ang] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:46:23.898Z] [mtgp52q72yevzfp4ang] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:46:23.906Z] [mtgp52q72yevzfp4ang] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:46:23.921Z] [mtgp52r53or8a8m8l88] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:46:23.924Z] [mtgp52r53or8a8m8l88] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:46:23.935Z] [mtgp52r53or8a8m8l88] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:46:23.939Z] [mtgp52r53or8a8m8l88] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:46:23.941Z] [mtgp52r53or8a8m8l88] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:46:23.953Z] [mtgp52q72yevzfp4ang] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:46:23.955Z] [mtgp52s33fqivykuwvq] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:46:23.957Z] [mtgp52s33fqivykuwvq] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:46:23.964Z] [mtgp52r53or8a8m8l88] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:46:23.966Z] [mtgp52seuixp4857jd8] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:46:23.968Z] [mtgp52seuixp4857jd8] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:46:23.983Z] [mtgp52svo3ol9bhiy59] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:46:23.985Z] [mtgp52svo3ol9bhiy59] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:46:23.987Z] [mtgp52svo3ol9bhiy59] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:46:23.990Z] [mtgp52svo3ol9bhiy59] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:46:23.992Z] [mtgp52svo3ol9bhiy59] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:46:24.003Z] [mtgp52tfrrpyie5t899] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T03:46:24.005Z] [mtgp52tfrrpyie5t899] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T03:46:24.008Z] [mtgp52tfrrpyie5t899] Verifying token with JWT_SECRET: {}
+[2026-08-31T03:46:24.022Z] [mtgp52tfrrpyie5t899] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T03:46:24.024Z] [mtgp52tfrrpyie5t899] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T03:46:24.037Z] [mtgp52svo3ol9bhiy59] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:46:24.040Z] [mtgp52ug8dryzdpil2a] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:46:24.053Z] [mtgp52ug8dryzdpil2a] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T03:46:24.072Z] [mtgp52tfrrpyie5t899] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T03:46:24.075Z] [mtgp52vfjvs6jkpz8ok] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T03:46:24.087Z] [mtgp52vfjvs6jkpz8ok] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T04:07:24.238Z] [mtgpw37x6cc0eydtfer] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T04:07:24.241Z] [mtgpw37x6cc0eydtfer] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T04:07:24.242Z] [mtgpw37x6cc0eydtfer] Verifying token with JWT_SECRET: {}
+[2026-08-31T04:07:24.248Z] [mtgpw37x6cc0eydtfer] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T04:07:24.254Z] [mtgpw37x6cc0eydtfer] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T04:07:24.276Z] [mtgpw390r1k4jy4cjzq] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T04:07:24.277Z] [mtgpw390r1k4jy4cjzq] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T04:07:24.279Z] [mtgpw390r1k4jy4cjzq] Verifying token with JWT_SECRET: {}
+[2026-08-31T04:07:24.286Z] [mtgpw390r1k4jy4cjzq] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T04:07:24.287Z] [mtgpw390r1k4jy4cjzq] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T04:07:24.292Z] [mtgpw37x6cc0eydtfer] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T04:07:24.294Z] [mtgpw39iqyyejd9h28f] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T04:07:24.301Z] [mtgpw39iqyyejd9h28f] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T04:07:24.306Z] [mtgpw390r1k4jy4cjzq] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T04:07:24.307Z] [mtgpw39vxgv9aysrhn] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T04:07:24.309Z] [mtgpw39vxgv9aysrhn] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T04:07:24.334Z] [mtgpw3amt5wxzgvgkzj] protect() called: {"url":"/admin/categories","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T04:07:24.335Z] [mtgpw3amt5wxzgvgkzj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T04:07:24.337Z] [mtgpw3amt5wxzgvgkzj] Verifying token with JWT_SECRET: {}
+[2026-08-31T04:07:24.340Z] [mtgpw3amt5wxzgvgkzj] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T04:07:24.343Z] [mtgpw3amt5wxzgvgkzj] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T04:07:24.355Z] [mtgpw3b7vra6nfgeieg] protect() called: {"url":"/admin/products?page=1&limit=12","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-08-31T04:07:24.357Z] [mtgpw3b7vra6nfgeieg] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-08-31T04:07:24.358Z] [mtgpw3b7vra6nfgeieg] Verifying token with JWT_SECRET: {}
+[2026-08-31T04:07:24.361Z] [mtgpw3b7vra6nfgeieg] Token verified successfully: {"decoded":{"id":"6a94f433e83561691154ce8b","iat":"2026-08-31T03:25:39.000Z","exp":"2026-09-07T03:25:39.000Z"}}
+[2026-08-31T04:07:24.369Z] [mtgpw3b7vra6nfgeieg] Searching for admin with ID: 6a94f433e83561691154ce8b: {}
+[2026-08-31T04:07:24.376Z] [mtgpw3amt5wxzgvgkzj] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T04:07:24.382Z] [mtgpw3bxil10gy11op] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T04:07:24.388Z] [mtgpw3bxil10gy11op] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-08-31T04:07:24.421Z] [mtgpw3b7vra6nfgeieg] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-08-31T04:07:24.440Z] [mtgpw3dk1yvthwi31ff] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-08-31T04:07:24.442Z] [mtgpw3dk1yvthwi31ff] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
