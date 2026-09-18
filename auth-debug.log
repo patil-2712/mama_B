@@ -5652,3 +5652,67 @@
 [2026-08-31T04:07:24.421Z] [mtgpw3b7vra6nfgeieg] Admin authenticated successfully: {"adminId":"6a94f433e83561691154ce8b","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
 [2026-08-31T04:07:24.440Z] [mtgpw3dk1yvthwi31ff] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
 [2026-08-31T04:07:24.442Z] [mtgpw3dk1yvthwi31ff] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T08:31:56.954Z] [mu6p9moqoaaaki9xyn] protect() called: {"url":"/admin/gallery","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-09-18T08:31:56.976Z] [mu6p9moqoaaaki9xyn] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T08:31:57.003Z] [mu6p9moqoaaaki9xyn] Verifying token with JWT_SECRET: {}
+[2026-09-18T08:31:57.042Z] [mu6p9moqoaaaki9xyn] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T08:31:57.055Z] [mu6p9moqoaaaki9xyn] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T08:31:57.111Z] [mu6p9mt3m75htblnii] protect() called: {"url":"/admin/gallery","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-09-18T08:31:57.112Z] [mu6p9mt3m75htblnii] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T08:31:57.114Z] [mu6p9mt3m75htblnii] Verifying token with JWT_SECRET: {}
+[2026-09-18T08:31:57.121Z] [mu6p9mt3m75htblnii] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T08:31:57.123Z] [mu6p9mt3m75htblnii] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T08:31:57.194Z] [mu6p9moqoaaaki9xyn] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T08:31:57.196Z] [mu6p9mvgxx5eqnfjro] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T08:31:57.197Z] [mu6p9mvgxx5eqnfjro] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T08:31:57.207Z] [mu6p9mt3m75htblnii] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T08:31:57.209Z] [mu6p9mvty46yt4nu18j] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T08:31:57.210Z] [mu6p9mvty46yt4nu18j] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T08:32:29.820Z] [mu6pac1n7g8g4nrc9m] protect() called: {"url":"/admin/gallery","method":"POST","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryNPdSJkumsQXG6mnA"}}
+[2026-09-18T08:32:29.822Z] [mu6pac1n7g8g4nrc9m] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T08:32:29.825Z] [mu6pac1n7g8g4nrc9m] Verifying token with JWT_SECRET: {}
+[2026-09-18T08:32:29.835Z] [mu6pac1n7g8g4nrc9m] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T08:32:29.840Z] [mu6pac1n7g8g4nrc9m] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T08:32:29.941Z] [mu6pac1n7g8g4nrc9m] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T08:32:29.943Z] [mu6pac53tb8j34u9x] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T08:32:29.945Z] [mu6pac53tb8j34u9x] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T08:32:30.298Z] [mu6paceyodj2dh988lj] protect() called: {"url":"/admin/gallery","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-09-18T08:32:30.300Z] [mu6paceyodj2dh988lj] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T08:32:30.302Z] [mu6paceyodj2dh988lj] Verifying token with JWT_SECRET: {}
+[2026-09-18T08:32:30.310Z] [mu6paceyodj2dh988lj] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T08:32:30.316Z] [mu6paceyodj2dh988lj] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T08:32:30.407Z] [mu6paceyodj2dh988lj] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T08:32:30.409Z] [mu6paci1g21i1c9lxyv] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T08:32:30.411Z] [mu6paci1g21i1c9lxyv] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T09:06:12.288Z] [mu6qholbfriapuh0pg] protect() called: {"url":"/admin/gallery","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-09-18T09:06:12.291Z] [mu6qholbfriapuh0pg] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T09:06:12.303Z] [mu6qholbfriapuh0pg] Verifying token with JWT_SECRET: {}
+[2026-09-18T09:06:12.324Z] [mu6qholbfriapuh0pg] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T09:06:12.326Z] [mu6qholbfriapuh0pg] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T09:06:12.602Z] [mu6qholbfriapuh0pg] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T09:06:12.606Z] [mu6qhou69u7ih4ha64t] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T09:06:12.626Z] [mu6qhou69u7ih4ha64t] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T09:06:12.748Z] [mu6qhoy41z4hetdga9j] protect() called: {"url":"/admin/gallery","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-09-18T09:06:12.750Z] [mu6qhoy41z4hetdga9j] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T09:06:12.758Z] [mu6qhoy41z4hetdga9j] Verifying token with JWT_SECRET: {}
+[2026-09-18T09:06:12.765Z] [mu6qhoy41z4hetdga9j] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T09:06:12.767Z] [mu6qhoy41z4hetdga9j] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T09:06:12.868Z] [mu6qhoy41z4hetdga9j] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T09:06:12.870Z] [mu6qhp1ijay067dxs1i] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T09:06:12.872Z] [mu6qhp1ijay067dxs1i] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T09:06:51.404Z] [mu6qiirwn9kwcb6hh6h] protect() called: {"url":"/admin/gallery","method":"POST","headers":{"authorization":"Bearer [PRESENT]","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryMtCWne4yWJYuI7VG"}}
+[2026-09-18T09:06:51.407Z] [mu6qiirwn9kwcb6hh6h] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T09:06:51.410Z] [mu6qiirwn9kwcb6hh6h] Verifying token with JWT_SECRET: {}
+[2026-09-18T09:06:51.420Z] [mu6qiirwn9kwcb6hh6h] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T09:06:51.423Z] [mu6qiirwn9kwcb6hh6h] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T09:06:51.569Z] [mu6qiirwn9kwcb6hh6h] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T09:06:51.572Z] [mu6qiiwk5svd47zmn92] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T09:06:51.574Z] [mu6qiiwk5svd47zmn92] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
+[2026-09-18T09:06:52.067Z] [mu6qijabkmlob3gtpt9] protect() called: {"url":"/admin/gallery","method":"GET","headers":{"authorization":"Bearer [PRESENT]","content-type":"application/json"}}
+[2026-09-18T09:06:52.071Z] [mu6qijabkmlob3gtpt9] Token extracted: {"tokenLength":171,"tokenPreview":"eyJhbGciOiJIUzI1NiIs..."}
+[2026-09-18T09:06:52.075Z] [mu6qijabkmlob3gtpt9] Verifying token with JWT_SECRET: {}
+[2026-09-18T09:06:52.081Z] [mu6qijabkmlob3gtpt9] Token verified successfully: {"decoded":{"id":"6a97c96a6bde3648e31a3523","iat":"2026-09-18T08:19:50.000Z","exp":"2026-09-25T08:19:50.000Z"}}
+[2026-09-18T09:06:52.086Z] [mu6qijabkmlob3gtpt9] Searching for admin with ID: 6a97c96a6bde3648e31a3523: {}
+[2026-09-18T09:06:52.256Z] [mu6qijabkmlob3gtpt9] Admin authenticated successfully: {"adminId":"6a97c96a6bde3648e31a3523","email":"patilavdhut198@gmail.com","role":"admin","name":"Avdhut Patil"}
+[2026-09-18T09:06:52.259Z] [mu6qijfn1d0dlpmgecij] authorize() called: {"requiredRoles":["admin"],"userRole":"admin"}
+[2026-09-18T09:06:52.262Z] [mu6qijfn1d0dlpmgecij] Authorization successful: {"userRole":"admin","requiredRoles":["admin"]}
